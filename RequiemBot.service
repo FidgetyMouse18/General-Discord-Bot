@@ -1,0 +1,13 @@
+[Unit]
+Description=Requiem Discord Bot
+Documentation=N/A
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/usr/bin/node /home/ubuntu/RequiemBot/dist/index.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

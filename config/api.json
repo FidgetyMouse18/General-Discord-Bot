@@ -1,0 +1,5 @@
+{
+    "BOT_TOKEN": "BOT_TOKEN",
+    "Prefix": "!",
+    "Servers": ["list", "of", "server", "IDs"]
+}
